@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- --------- Head Partial --------- -->
+ 
+    <%- include('partials/head.ejs', { title: title }); -%>
+
+<body>
+
+    <!-- --------- LKayout Container --------- -->
+
+    <div class="container-works">
+
+        <!-- --------- Nav Partial --------- -->
+    
+        <%- include('partials/nav.ejs'); -%>
+
+        <!-- --------- Page Content --------- -->
+
+        <div class="wrapper-main">
+
+            <div class="works-content">
+                
+                <div class="individual-work-page-title">
+                    <h1 class="projects-title"> ETH Fan Card </h1>
+                    <hr align="left">
+                    <p class="individual-projects-subtitle"> Adobe Photoshop • Adobe Illustrator • Adobe After Effects </p>
+                </div>
+
+                <div>
+                    <img class="embed-videos" src="./assets/ethfan_showcase1.gif">
+                </div>
+
+                <div class="individual-project-text">
+                    <p> 
+                       In this project I used Adobe Illustrator and Adobe Photoshop to create a trading card for a friend's NFT project "ETH Fan" using a 3D render of the NFT itself.
+                       I took inspiration from Magic:The Gathering and YugiOh for the card design, creating this almost "fantastical" look with bright colors and gradients that adds
+                       to the already gorgeous 3D render. I then used Adobe After effects to create an 3D animation of the card spinning, like if it was on a display.
+                    </p>
+                    
+                    <h2 class="individual-project-subheader"> Other shots of this project: </h2>
+                </div>
+
+                <!-- --------- Showcase Image Grid --------- -->
+
+                <div class="individual-project-grid">
+
+                    <div class="individual-project-grid-wrapper">
+                        <img src="./assets/ethfan_thumb.png">
+                        <p class="individual-project-grid-subtitle"> Front/Back Side by Side Still of the card </p>
+                    </div>
+
+                    <div class="individual-project-grid-wrapper">
+                        <img src="./assets/ethfan_showcase2.png">
+                        <p class="individual-project-grid-subtitle"> Holographic texture created for the card </p>
+                    </div>
+
+                </div>
+
+                
+            </div>
+        </div>
+
+    </div>    
+
+    <!-- --------- Footer Partial --------- -->
+    
+    <%- include('partials/footer.ejs'); -%>
+
+
+</body>
+</html>

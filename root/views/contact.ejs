@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- --------- Head Partial --------- -->
+
+    <%- include('partials/head.ejs', { title: title }); -%>
+
+
+    <body>
+
+        <!-- --------- LKayout Container --------- -->
+    
+        <div class="container-contact">
+        
+            <!-- --------- Nav Partial --------- -->
+    
+            <%- include('partials/nav.ejs'); -%>
+    
+            <!-- --------- Contact Page Content --------- -->
+    
+            <div class="wrapper-contact">
+                <div class="contact-content">
+                    
+                    <h3> <span class="blue-highlight"> Alright... </span> </h3> <br>
+                    
+                    <h1>Let's make your project a reality!</h1> <br>
+                    
+                    <p> 
+                        Send me a message on any of the mediums below and let's discuss your next project together! 🎨 <br>
+                    </p>
+
+                    <a href="https://twitter.com/zShirui">   
+                        <img class="icons" src="./assets/twittericon.png" width="40" height="40" alt="">
+                    </a>
+
+                    &nbsp &nbsp <!-- --------- Blank character to space out icons inline --------- -->
+
+                    <a href="https://www.linkedin.com/in/zshirui/">   
+                        <img class="icons" src="./assets/linkedinicon.png" width="40" height="40" alt="">
+                    </a>
+
+                    &nbsp &nbsp
+
+                    <a href="mailto:shiruicontato@gmail.com">   
+                        <img class="icons" src="./assets/emailicon.png" width="40" height="40" alt="">
+                    </a>
+
+                </div>
+            </div>    
+        </div>
+    
+        <!-- --------- Footer Partial --------- -->
+    
+        <%- include('partials/footer.ejs'); -%>
+    
+    </body>
+</html>

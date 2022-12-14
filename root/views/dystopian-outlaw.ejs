@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- --------- Head Partial --------- -->
+ 
+    <%- include('partials/head.ejs', { title: title }); -%>
+
+<body>
+
+    <!-- --------- LKayout Container --------- -->
+
+    <div class="container-works">
+
+        <!-- --------- Nav Partial --------- -->
+    
+        <%- include('partials/nav.ejs'); -%>
+
+        <!-- --------- Page Content --------- -->
+
+        <div class="wrapper-main">
+
+            <div class="works-content">
+                
+                <div class="individual-work-page-title">
+                    <h1 class="projects-title"> Clothing Line: ‘Dystopian Outlaw’ </h1>
+                    <hr align="left">
+                    <p class="individual-projects-subtitle"> Adobe Photoshop • Adobe Illustrator • CLO3D  </p>
+                </div>
+
+                <!-- --------- Embedded Youtube Video --------- -->
+
+                <div>
+                    <img src="./assets/dystopianoutlaw_thumb.png" class="hero-image">
+                </div>
+
+                <div class="individual-project-text">
+                    <p> 
+                        As a deliverable for a self-directed learning course at Humber College, I decided to create a clothing line project. 
+                        The goal was to create a cohesive new series of prints for shirts, that could potentially be sold as a collection. 
+                        In this project I created print designs based on the <span class="highlight"> Cyberpunk 2077</span> universe
+                        using Adobe Illustrator and Photoshop, and created my own 3D mockups from scratch using CLO3D to showcase the designs.
+                    </p>
+                    
+                    <p> 
+                        I wrote an Article about the whole process of working on this project. You can check it out <a href="https://medium.com/@shiruigfx/clothing-line-project-dystopian-outlaw-1aeb86074018"> here </a>
+                    </p>
+
+                    <p> 
+                    You can also check out all the generated 4K renders on <a href="https://drive.google.com/drive/u/1/folders/1oObrezqnrNEVr19XvlqDGTFlKDsOamgr"> this folder </a>
+                    </p>
+
+                    <h2 class="individual-project-subheader"> Other shots of this project: </h2>
+                </div>
+
+                <!-- --------- Showcase Image Grid --------- -->
+
+                <div class="individual-project-grid">
+
+                    <div class="individual-project-grid-wrapper">
+                        <img src="./assets/dystopianoutlaw_showcase1.png">
+                        <p class="individual-project-grid-subtitle"> Back closeup - "Brain Dance" shirt </p>
+                    </div>
+
+                    <div class="individual-project-grid-wrapper">
+                        <img src="./assets/dystopianoutlaw_showcase2.png">
+                        <p class="individual-project-grid-subtitle"> Front closeup - "Corpo Rat" shirt </p>
+                    </div>
+
+                    <div class="individual-project-grid-wrapper">
+                        <img src="./assets/dystopianoutlaw_showcase3.png">
+                        <p class="individual-project-grid-subtitle"> Back closeup - "Net Runner" shirt </p>
+                    </div>
+ 
+                    <div class="individual-project-grid-wrapper">
+                        <img src="./assets/dystopianoutlaw_showcase4.png">
+                        <p class="individual-project-grid-subtitle"> Back closeup - "Cyber Drift" shirt </p>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+
+    </div>    
+
+    <!-- --------- Footer Partial --------- -->
+    
+    <%- include('partials/footer.ejs'); -%>
+
+
+</body>
+</html>

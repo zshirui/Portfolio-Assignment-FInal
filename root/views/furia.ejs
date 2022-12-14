@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- --------- Head Partial --------- -->
+ 
+    <%- include('partials/head.ejs', { title: title }); -%>
+
+<body>
+
+    <!-- --------- LKayout Container --------- -->
+
+    <div class="container-works">
+
+        <!-- --------- Nav Partial --------- -->
+    
+        <%- include('partials/nav.ejs'); -%>
+
+        <!-- --------- Page Content --------- -->
+
+        <div class="wrapper-main">
+
+            <div class="works-content">
+                
+                <div class="individual-work-page-title">
+                    <h1 class="projects-title"> Nike x Furia 2019 Jersey Remake </h1>
+                    <hr align="left">
+                    <p class="individual-projects-subtitle"> Adobe Photoshop • Adobe Illustrator </p>
+                </div>
+
+                <div>
+                    <img src="./assets/furiajersey_thumb.png" class="hero-image">
+                </div>
+
+                <div class="individual-project-text">
+                    <p> 
+                       The goal of this study project was to redesign the 2019 Jersey from the Esports team FURIA. That year they partnered with Nike for the creation of a new
+                       jersey, but the team fans didn't like the overall result very much. Using Adobe Illustrator and Adobe Photoshop I provided my take on this partnership with 
+                       a bold and energetic design that suits the FURIA brand and represents what the fans have been asking for.
+                    </p>
+                    
+                    <h2 class="individual-project-subheader"> Other shots of this project: </h2>
+                </div>
+
+                <!-- --------- Showcase Image Grid --------- -->
+
+                <div class="individual-project-grid">
+
+                    <div class="individual-project-grid-wrapper">
+                        <img src="./assets/furia_showcase1.png">
+                        <p class="individual-project-grid-subtitle"> Front Details Closeup </p>
+                    </div>
+
+                    <div class="individual-project-grid-wrapper">
+                        <img src="./assets/furia_showcase2.png">
+                        <p class="individual-project-grid-subtitle"> Back Details Closeup </p>
+                    </div>
+
+                    <div class="individual-project-grid-wrapper">
+                        <img src="./assets/furia_showcase3.png">
+                        <p class="individual-project-grid-subtitle"> Diagonal view of the Jersey </p>
+                    </div>
+ 
+                    <div class="individual-project-grid-wrapper">
+                        <img src="./assets/furia_showcase4.png">
+                        <p class="individual-project-grid-subtitle"> Details and Full back view of the Jersey </p>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+
+    </div>    
+
+    <!-- --------- Footer Partial --------- -->
+    
+    <%- include('partials/footer.ejs'); -%>
+
+
+</body>
+</html>

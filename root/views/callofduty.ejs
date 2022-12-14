@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- --------- Head Partial --------- -->
+ 
+    <%- include('partials/head.ejs', { title: title }); -%>
+
+<body>
+
+    <!-- --------- LKayout Container --------- -->
+
+    <div class="container-works">
+
+        <!-- --------- Nav Partial --------- -->
+    
+        <%- include('partials/nav.ejs'); -%>
+
+        <!-- --------- Page Content --------- -->
+
+        <div class="wrapper-main">
+
+            <div class="works-content">
+                
+                <div class="individual-work-page-title">
+                    <h1 class="projects-title"> Call Of Duty - 2021 Worlds Invitational NA </h1>
+                    <hr align="left">
+                    <p class="individual-projects-subtitle"> Adobe Photoshop • Adobe Illustrator </p>
+                </div>
+
+                <!-- --------- Embedded Vimeo Video --------- -->
+
+                <div>
+                    <iframe class="embed-videos" src="https://player.vimeo.com/video/671076775?h=e08d82d863" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <div class="individual-project-text">
+                    <p> 
+                        In this project, being part of the Outplay CO. team, I developed part of the visuals for the most important North-American Call Of Duty:Mobile league. 
+                        After creating the whole brand identity for the tournament, graphics and assets were developed by me to be used in the official championship stream.
+                        This included multiple pieces like scoreboards, intermission scenes, starting and ending screens, lower thirds, etc.
+                    </p>
+                    
+                    <p> 
+                        They were later used in 3D renders made by a 3D specialist, as well as animated by Motion Designers.
+                    </p>
+
+                    <h2 class="individual-project-subheader"> Other shots of this project: </h2>
+                </div>
+
+                <!-- --------- Showcase Image Grid --------- -->
+
+                <div class="individual-project-grid">
+
+                    <div class="individual-project-grid-wrapper">
+                        <img src="./assets/codworlds_showcase1.gif">
+                        <p class="individual-project-grid-subtitle"> Stream Ending Screen </p>
+                    </div>
+
+                    <div class="individual-project-grid-wrapper">
+                        <img src="./assets/codworlds_showcase2.gif">
+                        <p class="individual-project-grid-subtitle"> Stream Starting Screen </p>
+                    </div>
+
+                    <div class="individual-project-grid-wrapper">
+                        <img src="./assets/codworlds_showcase3.gif">
+                        <p class="individual-project-grid-subtitle"> Prize Pool Insert </p>
+                    </div>
+ 
+                    <div class="individual-project-grid-wrapper">
+                        <img src="./assets/codworlds_showcase4.gif">
+                        <p class="individual-project-grid-subtitle"> Team Overview Scoreboard </p>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+
+    </div>    
+
+    <!-- --------- Footer Partial --------- -->
+    
+    <%- include('partials/footer.ejs'); -%>
+
+
+</body>
+</html>

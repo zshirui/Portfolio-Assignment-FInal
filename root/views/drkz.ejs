@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- --------- Head Partial --------- -->
+ 
+    <%- include('partials/head.ejs', { title: title }); -%>
+
+<body>
+
+    <!-- --------- LKayout Container --------- -->
+
+    <div class="container-works">
+    
+        <!-- --------- Nav Partial --------- -->
+
+        <%- include('partials/nav.ejs'); -%>
+
+        <!-- --------- Page Content --------- -->
+
+        <div class="wrapper-main">
+
+            <div class="works-content">
+                
+                <div class="individual-work-page-title">
+                    <h1 class="projects-title"> DRKZ Stream Package </h1>
+                    <hr align="left">
+                    <p class="individual-projects-subtitle"> Adobe Photoshop • Adobe Illustrator </p>
+                </div>
+
+                <div>
+                    <img src="./assets/drkz_hero.gif" class="hero-image">
+                </div>
+
+                <div class="individual-project-text">
+                    <p> 
+                        In this project I developed all the static assets for DRKZ's stream package, including his new branding and all the stream alerts and scenes using <span class = "highlight">
+                        Photoshop and Illustrator.</span> He wanted to theme the project around "skulls" and "street art", so I created pieces containing
+                        a mix of street art, spray effects and skulls with broken glass to add to the street style and provide a "raw" feeling to the pieces.
+                    </p>
+                    <p> 
+                        After all the static pieces were done and approved by DRKZ, they were sent to a Motion Designer to give life to the project.
+                    </p>
+
+                    <h2 class="individual-project-subheader"> Other shots of this project: </h2>
+                </div>
+
+                <!-- --------- Showcase Image Grid --------- -->
+
+                <div class="individual-project-grid">
+
+                    <div class="individual-project-grid-wrapper">
+                        <img src="./assets/drkz_showcase1.png">
+                        <p class="individual-project-grid-subtitle"> DRKZ Stream Alerts </p>
+                    </div>
+
+                    <div class="individual-project-grid-wrapper">
+                        <img src="./assets/drkz_showcase2.png">
+                        <p class="individual-project-grid-subtitle"> DRKZ Webcam Layout </p>
+                    </div>
+
+                    <div class="individual-project-grid-wrapper">
+                        <img src="./assets/drkz_showcase3.png">
+                        <p class="individual-project-grid-subtitle"> DRKZ Intermission Screen </p>
+                    </div>
+ 
+                    <div class="individual-project-grid-wrapper">
+                        <img src="./assets/drkz_showcase4.png">
+                        <p class="individual-project-grid-subtitle"> DRKZ Youtube Banner </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>    
+    
+    <!-- ---------Footer Partial --------- -->
+
+    <%- include('partials/footer.ejs'); -%>
+
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- --------- Head Partial --------- -->
+ 
+    <%- include('partials/head.ejs', { title: title }); -%>
+
+<body>
+
+    <!-- --------- LKayout Container --------- -->
+
+    <div class="container-works">
+
+        <!-- --------- Nav Partial --------- -->
+    
+        <%- include('partials/nav.ejs'); -%>
+
+        <!-- --------- Page Content --------- -->
+
+        <div class="wrapper-main">
+
+            <div class="works-content">
+                
+                <div class="individual-work-page-title">
+                    <h1 class="projects-title"> Blast Premier Spring </h1>
+                    <hr align="left">
+                    <p class="individual-projects-subtitle"> Adobe Photoshop • Adobe Illustrator • Adobe After Effects • Adobe Premiere  </p>
+                </div>
+
+                <!-- --------- Embedded Youtube Video --------- -->
+
+                <div>
+                    <iframe class="embed-videos" src="https://www.youtube.com/embed/u_re_ghmJgY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <div class="individual-project-text">
+                    <p> 
+                        In this study project I developed motion graphics with customizable MOGRTs for <span class = "highlight">Blast Premier</span>.
+                        Taking inspiration from street art and the energetic feel of the Blast brand, I created spray assets with Adobe Illustrator and then 
+                        developed multiple animations with Adobe After Effects, as well as the MOGRTs for use in Adobe Premiere.
+                    </p>
+                    
+                    <p> 
+                        The contents of this project included:
+                    </p>
+
+                    <ul>
+                        <li> <a href="./assets/blast_brief.pdf"> Project Briefing </a> </li>
+                        <li> Opening Intro Animation + MOGRT </li>
+                        <li> Stinger Transition + MOGRT </li>
+                        <li> Player Stats Card + MOGRT </li>
+                        <li> Basic Lower Third + MOGRT </li>
+                    </ul>
+
+                    <h2 class="individual-project-subheader"> Other shots of this project: </h2>
+                </div>
+
+                <!-- --------- Showcase Image Grid --------- -->
+
+                <div class="individual-project-grid">
+
+                    <div class="individual-project-grid-wrapper">
+                        <img src="./assets/blast_showcase1.png">
+                        <p class="individual-project-grid-subtitle"> Tone Of Voice - Project Briefing </p>
+                    </div>
+
+                    <div class="individual-project-grid-wrapper">
+                        <img src="./assets/blastpremier_thumb.png">
+                        <p class="individual-project-grid-subtitle"> Main Title - Project Briefing </p>
+                    </div>
+
+                    <div class="individual-project-grid-wrapper">
+                        <img src="./assets/blast_showcase3.jpg">
+                        <p class="individual-project-grid-subtitle"> Player Stats Card Still </p>
+                    </div>
+ 
+                    <div class="individual-project-grid-wrapper">
+                        <img src="./assets/blast_showcase4.jpg">
+                        <p class="individual-project-grid-subtitle"> Lower Third Still </p>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+
+    </div>    
+
+    <!-- --------- Footer Partial --------- -->
+    
+    <%- include('partials/footer.ejs'); -%>
+
+
+</body>
+</html>
